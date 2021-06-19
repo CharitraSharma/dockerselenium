@@ -33,7 +33,7 @@ pipeline{
 } */
 // For windows/machines
 pipeline {
-    agent dell
+    agent any
     stages{
         stage('Build Jar') {
             steps {
