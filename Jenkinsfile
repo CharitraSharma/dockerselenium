@@ -42,7 +42,7 @@ pipeline {
         }
         stage('Building image') {
             steps {
-                bat "docker build -t='charitrasharma/selenium-docker' ."
+                bat "docker build -t charitrasharma/selenium-docker ."
             }
         }
         stage('Push Image'){
